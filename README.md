@@ -1,46 +1,46 @@
-# smarthome
+# Smart Home
 
-## Installation
+## 1 Homebridge Installation
 
-### OS
+### 1.1 OS
 1. Settings:
  - Set hostname
  - Set username and password
  - Activate SSH through user
 2. Install OS
    
-### Install docker
+### 1.2 Install docker
 
 `curl -sSL https://get.docker.com | sh`
 
-### Add current user to docker group
+### 1.3 Add current user to docker group
 `sudo usermod -aG docker ${USER}`
 
-### Check the docker group
+### 1.4 Check the docker group
 `groups ${USER}`
 
-### Install docker compose dependencies
+### 1.5 Install docker compose dependencies
 `sudo apt-get install libffi-dev libssl-dev`
 
 `sudo apt install python3-dev`
 
 `sudo apt-get install -y python3 python3-pip`
 
-### Install docker compose
+### 1.6 Install docker compose
 `sudo pip3 install docker-compose`
 
-### Enable docker run with system startup through system service
+### 1.7 Enable docker run with system startup through system service
 `sudo systemctl enable docker`
 
-### Create homebridge directory
+### 1.8 Create homebridge directory
 `mkdir /home/pi/homebridge`
 
 `cd /home/pi/homebridge`
 
-### Create docker compose file
+### 1.9 Create docker compose file
 `nano docker-compose.yml`
 
-### Check containers
+### 1.10 Check containers
 `docker ps`
 or
 `docker ps -a`
