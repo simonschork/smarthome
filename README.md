@@ -15,7 +15,7 @@
 ## Adguard
 1. Follow documentation
 2. Select an appropriate filter script
-3. Add additional user filter from [](https://github.com/simonschork/smarthome/blob/main/adguard/benutzerdefinierte_filterregeln.txt)
+3. Add additional user filter from [adguard/benutzerdefinierte_filterregeln.txt](https://github.com/simonschork/smarthome/blob/main/adguard/benutzerdefinierte_filterregeln.txt)
 
 ## Jellyfin
 1. Follow documentation
