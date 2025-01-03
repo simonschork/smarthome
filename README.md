@@ -1,6 +1,6 @@
 # Smart Home
 
-## 1 OS
+## OS
 1. Settings:
  - Set hostname
  - Set username and password
