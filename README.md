@@ -9,7 +9,7 @@
 
 ## Homebridge
 1. Follow documentation
-2. Add plugins from [/homebridge/plugin_list.txt](https://github.com/simonschork/smarthome/blob/main/homebridge/plugin_list.md)
+2. Add plugins from [/homebridge/plugin_list.txt](https://github.com/simonschork/smarthome/blob/main/homebridge/plugin_list.txt)
 3. Be aware to add different device's providers as Child-Bridges
 
 ## Adguard
