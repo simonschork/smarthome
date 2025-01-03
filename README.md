@@ -1,46 +1,22 @@
 # Smart Home
 
-## 1 Homebridge Installation
-
-### 1.1 OS
+## 1 OS
 1. Settings:
  - Set hostname
  - Set username and password
  - Activate SSH through user
 2. Install OS
-   
-### 1.2 Install docker
 
-`curl -sSL https://get.docker.com | sh`
+## Homebridge
+1. Follow documentation
+2. Be aware to add different device's providers as Child-Bridges
 
-### 1.3 Add current user to docker group
-`sudo usermod -aG docker ${USER}`
+## Adguard
+1. Follow documentation
+2. Select an appropriate filter script
 
-### 1.4 Check the docker group
-`groups ${USER}`
-
-### 1.5 Install docker compose dependencies
-`sudo apt-get install libffi-dev libssl-dev`
-
-`sudo apt install python3-dev`
-
-`sudo apt-get install -y python3 python3-pip`
-
-### 1.6 Install docker compose
-`sudo pip3 install docker-compose`
-
-### 1.7 Enable docker run with system startup through system service
-`sudo systemctl enable docker`
-
-### 1.8 Create homebridge directory
-`mkdir /home/pi/homebridge`
-
-`cd /home/pi/homebridge`
-
-### 1.9 Create docker compose file
-`nano docker-compose.yml`
-
-### 1.10 Check containers
-`docker ps`
-or
-`docker ps -a`
+## Jellyfin
+1. Follow documentation
+2. Add an external SSD [SSD with Linux](https://www.cnmemory.de/ssd-festplatte-formatieren-einfache-anleitung/)
+3. Create directories
+4. Follow Jellyfin's setup wizard
