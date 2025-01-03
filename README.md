@@ -9,11 +9,13 @@
 
 ## Homebridge
 1. Follow documentation
-2. Be aware to add different device's providers as Child-Bridges
+2. Add plugins from /homebridge/plugin_list.txt
+3. Be aware to add different device's providers as Child-Bridges
 
 ## Adguard
 1. Follow documentation
 2. Select an appropriate filter script
+3. Add additional user filter from /adguard/benutzerdefinierte_filterregeln.txt
 
 ## Jellyfin
 1. Follow documentation
