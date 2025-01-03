@@ -2,9 +2,9 @@
 
 ## OS
 1. Settings:
-    1. Set hostname
-    2. Set username and password
-    3. Activate SSH through user
+    - Set hostname
+    - Set username and password
+    - Activate SSH through user
 2. Install OS
 
 ## Homebridge
